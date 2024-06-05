@@ -1,0 +1,121 @@
+.Container{
+display: flex;
+
+ width: 800px;
+ height: 400px;
+ background-color:rgb(253, 107, 107);
+ cursor: pointer;
+ font-family: math;
+ border-radius: 10px;
+ 
+}
+
+.Container p{
+    font-size: 14px;
+    
+}
+
+.height{
+    height: 400px;
+}
+.Main{
+ display: flex;
+}
+.bottom{
+  display: flex;
+  margin-top: 16px;
+  width: 100%;
+  font-size: 18px;
+
+  font-family: fangsong;
+
+ 
+}
+
+.icon{
+  display: flex;
+  justify-content: end;
+  
+  width: 10%;
+  height: 30px;
+  margin-top: 20px;
+
+
+}
+.Faq_Img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+.Faq_Img img{
+  width:80%;
+  height: 300px;
+
+  border-radius: 10px;
+}
+
+@media (max-width:780px){
+  .Container{
+    height: 430px;
+  }
+  .bottom h5{
+    font-size: 18px;
+  }
+
+ .Faq_Img img{
+  max-width: 100%;
+  height: 80%;
+ }
+
+}
+
+@media (max-width:640px){
+  .Container{
+    height: 420px;
+  }
+  .bottom h5{
+    font-size: 18px;
+  }
+  .Container p{
+    font-size: 12px;
+}
+.Faq_Img img{
+ height: 72%;
+ }
+
+}
+@media (max-width:570px){
+  .Faq_Img img{
+    width: 90%;
+    height: 70%;
+    }
+
+}
+
+@media (max-width:480px){
+  .Container{
+    height: 420px;
+  }
+  .bottom h5{
+    font-size: 14px;
+  }
+  .Faq_Img img{
+    width: 100%;
+    height: 70%;
+    }
+   
+}
+
+   @media (max-width:380px){
+
+    .Faq_Img img{
+      width: 100%;
+      height: 50%;
+      }
+
+   }
